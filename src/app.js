@@ -22,7 +22,7 @@ app.get('', (req, res) => {
     res.render('index', { title: "Weather", name: "ms", desc: "End of index file" });
 })
 app.get('/about', (req, res) => {
-    res.render('about', { title: "Anime", name: "Dragon Ball Super", desc: "End of about file" });
+    res.render('about', { title: "About", name: "Dragon Ball Super", desc: "End of about file" });
 })
 app.get('/help', (req, res) => {
     res.render('help', { title: "Help Page", text: "For any query mail us at abc@gmail.com", desc: "End of help file" });
